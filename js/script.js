@@ -25,7 +25,20 @@ function ractangleLoadData(){
      const inputText2 =parseFloat(rectangleInputText2);
      const areaResult =inputTect1 * inputText2;
      const arereslut= document.getElementById('result');
-     arereslut.innerText =areaResult;
-     
-    
+     arereslut.innerText =areaResult; 
+}
+
+function  parallelograminputText(){
+    const parallelograminput =document.getElementById('kalapotiperallelogrm');
+    const hetinput =document.getElementById('hello');
+
+    const parellelogramText =hetinput.value;
+    const base4 =parseFloat(parellelogramText)
+    console.log(base4);
+
+    const hetinput5=document.getElementById('hello');
+    const parellelogramText5 =hetinput.value;
+    const base5=parseFloat(parellelogramText5)
+    const ares7 = base4 * base5;
+    console.log(ares7);
 }
